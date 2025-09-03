@@ -18,7 +18,7 @@ export const HomeView = () => {
         <Button
           onClick={() =>
             authClient.signOut({
-              fetchOptions: { onSuccess: () => router.push("/sign-in") }
+              fetchOptions: { onSuccess: () => router.push("/sign-in") },
             })
           }
         >
