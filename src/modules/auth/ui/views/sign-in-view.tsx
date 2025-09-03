@@ -8,7 +8,7 @@ import Link from "next/link";
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
-import {FaGithub,FaGoogle} from "react-icons/fa"
+import { FaGithub, FaGoogle } from "react-icons/fa";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -155,7 +155,7 @@ export const SignInView = () => {
                     type="button"
                     className="w-full"
                   >
-                    <FaGoogle/>
+                    <FaGoogle />
                   </Button>
                   <Button
                     onClick={() => onSocial("github")}
@@ -164,7 +164,7 @@ export const SignInView = () => {
                     type="button"
                     className="w-full"
                   >
-                    <FaGithub/>
+                    <FaGithub />
                   </Button>
                 </div>
                 <div className="text-center text-sm">
@@ -179,7 +179,7 @@ export const SignInView = () => {
               </div>
             </form>
           </Form>
-          <div className="bg-gradient-to-r from-green-700 to-green-900 relative hidden md:flex md:flex-col gap-y-4 items-center justify-center">
+          <div className="bg-gradient-to-r from-sidebar-accent to-sidebar relative hidden md:flex md:flex-col gap-y-4 items-center justify-center">
             <img className="h-[92px] w-[92px]" src="/logo.svg" alt="Image" />
             <p className="text-2xl font-semibold text-white">Meet.AI</p>
           </div>
